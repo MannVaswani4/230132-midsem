@@ -1,117 +1,121 @@
 {
-    "student_metadata": {
-        "name": "Mann Vaswani",
-        "roll_number": "230132",
-        "course": "Advanced Machine Learning",
-        "exam": "Mid-Semester Examination",
-        "part": "Part A",
-        "submission_date": "2026-03-03"
-    },
-    "llm_tools_used": [
-        {
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "provider": "OpenAI"
-        }
-    ],
-    "full_llm_interaction_log": [
-        {
-            "interaction_id": 1,
-            "date": "2026-03-03",
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "purpose": "Checking if my paper satisfies the Part A rules",
-            "prompt": "Can I take this paper SVM Classifier Estimation from Group Probabilities?",
-            "llm_response_used": "Yes",
-            "how_it_helped": "Helped me confirm that the paper is from ICML 2010 and fits the allowed SVM category.",
-            "student_verification": "I checked the ICML venue and year myself from the paper PDF.",
-            "confidence_level": 5
-        },
-        {
-            "interaction_id": 2,
-            "date": "2026-03-03",
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "purpose": "Understanding if it is implementable",
-            "prompt": "Is this paper reproducible on CPU using simple datasets?",
-            "llm_response_used": "Yes",
-            "how_it_helped": "It reassured me that I can simulate grouped labels and implement it using sklearn SVR.",
-            "student_verification": "I saw in the experiments section that they used UCI datasets.",
-            "confidence_level": 4
-        },
-        {
-            "interaction_id": 3,
-            "date": "2026-03-03",
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "purpose": "Trying to understand the core idea",
-            "prompt": "Explain inverse calibration in simple terms.",
-            "llm_response_used": "Partially",
-            "how_it_helped": "Gave me an intuition before I re-read the algorithm section.",
-            "student_verification": "I matched it with the sigmoid inverse equation in Section 3.",
-            "confidence_level": 4
-        },
-        {
-            "interaction_id": 4,
-            "date": "2026-03-03",
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "purpose": "Understanding what experiments I could do later",
-            "prompt": "What kind of experiments can I run for this paper?",
-            "llm_response_used": "Yes",
-            "how_it_helped": "Helped me think about testing group size and performance.",
-            "student_verification": "I checked the experiments section where they vary k.",
-            "confidence_level": 4
-        },
-        {
-            "interaction_id": 5,
-            "date": "2026-03-03",
-            "tool_name": "ChatGPT",
-            "model": "GPT-5.2",
-            "purpose": "Understanding difficulty level",
-            "prompt": "Is this paper explainable for a student without heavy math?",
-            "llm_response_used": "Yes",
-            "how_it_helped": "Helped me judge that the idea is conceptual and not too theoretical.",
-            "student_verification": "After reading, I felt the main idea was understandable.",
-            "confidence_level": 4
-        }
-    ],
-    "top_5_prompts": [
-        {
-            "rank": 1,
-            "interaction_id": 1,
-            "prompt": "Can I take this paper SVM Classifier Estimation from Group Probabilities?",
-            "why_important": "This helped me confirm it follows exam constraints."
-        },
-        {
-            "rank": 2,
-            "interaction_id": 2,
-            "prompt": "Is this paper reproducible on CPU using simple datasets?",
-            "why_important": "This helped me ensure I can implement it later."
-        },
-        {
-            "rank": 3,
-            "interaction_id": 3,
-            "prompt": "Explain inverse calibration in simple terms.",
-            "why_important": "Helped me understand the core contribution."
-        },
-        {
-            "rank": 4,
-            "interaction_id": 4,
-            "prompt": "What kind of experiments can I run for this paper?",
-            "why_important": "Helped me think ahead for Part B."
-        },
-        {
-            "rank": 5,
-            "interaction_id": 5,
-            "prompt": "Is this paper explainable for a student without heavy math?",
-            "why_important": "Helped me judge feasibility for viva."
-        }
-    ],
-    "student declaration": {
-        "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
-        "understanding acknowledged": true,
-        "signature": "Mann Vaswani",
-        "date": "2026-03-03"
+  "student_metadata": {
+    "name": "Mann Vaswani",
+    "roll_number": "230132",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-03"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "provider": "OpenAI"
     }
+  ],
+
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Finding a suitable methodological paper within exam constraints",
+      "prompt": "Suggest a safe and easy ICML paper based on SVM that is reproducible and not deep learning.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped shortlist classical SVM-based papers from ICML.",
+      "student_verification": "I verified the venue, year, and paper type from ICML proceedings.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Checking feasibility of CW-SVM paper",
+      "prompt": "Is The Constrained Weight Space SVM: Learning with Ranked Features a good choice?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Confirmed that the paper is methodological and SVM-based.",
+      "student_verification": "I read the abstract and optimization formulation to confirm it modifies standard SVM.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Understanding core idea",
+      "prompt": "Explain constrained weight space SVM in simple terms.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped me understand how weight constraints are added to the SVM optimization.",
+      "student_verification": "I cross-checked with Section 3 of the paper where constraints are defined.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Planning reproducibility",
+      "prompt": "Can this paper be implemented on a CPU with small datasets?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Confirmed that it uses linear SVM and quadratic programming only.",
+      "student_verification": "I checked that experiments were on text datasets and linear models.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-03",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5.2",
+      "purpose": "Preparing justification paragraph",
+      "prompt": "Make my paper selection justification sound human for a 3rd year BTech student.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "Improved clarity and natural tone of my explanation.",
+      "student_verification": "I reviewed and edited the paragraph before finalizing.",
+      "confidence_level": 4
+    }
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 2,
+      "prompt": "Is The Constrained Weight Space SVM: Learning with Ranked Features a good choice?",
+      "why_important": "Helped confirm suitability under exam constraints."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 3,
+      "prompt": "Explain constrained weight space SVM in simple terms.",
+      "why_important": "Helped me understand the algorithm before committing."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 4,
+      "prompt": "Can this paper be implemented on a CPU with small datasets?",
+      "why_important": "Ensured feasibility for Part B reproduction."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 1,
+      "prompt": "Suggest a safe and easy ICML paper based on SVM.",
+      "why_important": "Helped shortlist options."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Make my justification paragraph sound human.",
+      "why_important": "Improved quality of submission."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "Mann Vaswani",
+    "date": "2026-03-03"
+  }
 }

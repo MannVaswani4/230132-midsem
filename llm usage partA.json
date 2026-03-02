@@ -1,0 +1,117 @@
+{
+    "student_metadata": {
+        "name": "Mann Vaswani",
+        "roll_number": "230132",
+        "course": "Advanced Machine Learning",
+        "exam": "Mid-Semester Examination",
+        "part": "Part A",
+        "submission_date": "2026-03-03"
+    },
+    "llm_tools_used": [
+        {
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "provider": "OpenAI"
+        }
+    ],
+    "full_llm_interaction_log": [
+        {
+            "interaction_id": 1,
+            "date": "2026-03-03",
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "purpose": "Checking if my paper satisfies the Part A rules",
+            "prompt": "Can I take this paper SVM Classifier Estimation from Group Probabilities?",
+            "llm_response_used": "Yes",
+            "how_it_helped": "Helped me confirm that the paper is from ICML 2010 and fits the allowed SVM category.",
+            "student_verification": "I checked the ICML venue and year myself from the paper PDF.",
+            "confidence_level": 5
+        },
+        {
+            "interaction_id": 2,
+            "date": "2026-03-03",
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "purpose": "Understanding if it is implementable",
+            "prompt": "Is this paper reproducible on CPU using simple datasets?",
+            "llm_response_used": "Yes",
+            "how_it_helped": "It reassured me that I can simulate grouped labels and implement it using sklearn SVR.",
+            "student_verification": "I saw in the experiments section that they used UCI datasets.",
+            "confidence_level": 4
+        },
+        {
+            "interaction_id": 3,
+            "date": "2026-03-03",
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "purpose": "Trying to understand the core idea",
+            "prompt": "Explain inverse calibration in simple terms.",
+            "llm_response_used": "Partially",
+            "how_it_helped": "Gave me an intuition before I re-read the algorithm section.",
+            "student_verification": "I matched it with the sigmoid inverse equation in Section 3.",
+            "confidence_level": 4
+        },
+        {
+            "interaction_id": 4,
+            "date": "2026-03-03",
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "purpose": "Understanding what experiments I could do later",
+            "prompt": "What kind of experiments can I run for this paper?",
+            "llm_response_used": "Yes",
+            "how_it_helped": "Helped me think about testing group size and performance.",
+            "student_verification": "I checked the experiments section where they vary k.",
+            "confidence_level": 4
+        },
+        {
+            "interaction_id": 5,
+            "date": "2026-03-03",
+            "tool_name": "ChatGPT",
+            "model": "GPT-5.2",
+            "purpose": "Understanding difficulty level",
+            "prompt": "Is this paper explainable for a student without heavy math?",
+            "llm_response_used": "Yes",
+            "how_it_helped": "Helped me judge that the idea is conceptual and not too theoretical.",
+            "student_verification": "After reading, I felt the main idea was understandable.",
+            "confidence_level": 4
+        }
+    ],
+    "top_5_prompts": [
+        {
+            "rank": 1,
+            "interaction_id": 1,
+            "prompt": "Can I take this paper SVM Classifier Estimation from Group Probabilities?",
+            "why_important": "This helped me confirm it follows exam constraints."
+        },
+        {
+            "rank": 2,
+            "interaction_id": 2,
+            "prompt": "Is this paper reproducible on CPU using simple datasets?",
+            "why_important": "This helped me ensure I can implement it later."
+        },
+        {
+            "rank": 3,
+            "interaction_id": 3,
+            "prompt": "Explain inverse calibration in simple terms.",
+            "why_important": "Helped me understand the core contribution."
+        },
+        {
+            "rank": 4,
+            "interaction_id": 4,
+            "prompt": "What kind of experiments can I run for this paper?",
+            "why_important": "Helped me think ahead for Part B."
+        },
+        {
+            "rank": 5,
+            "interaction_id": 5,
+            "prompt": "Is this paper explainable for a student without heavy math?",
+            "why_important": "Helped me judge feasibility for viva."
+        }
+    ],
+    "student declaration": {
+        "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+        "understanding acknowledged": true,
+        "signature": "Mann Vaswani",
+        "date": "2026-03-03"
+    }
+}

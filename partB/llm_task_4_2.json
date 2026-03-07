@@ -1,0 +1,40 @@
+{
+  "task_tag": "Task 4.2",
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "provider": "OpenAI"
+    }
+  ],
+  "code_used_verbatim": false,
+  "student_modification": "I edited the prompts and explanations to reflect my actual workflow during the assignment.",
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Formatting JSON correctly",
+      "prompt": "Help me structure a JSON file for documenting LLM usage in an assignment",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Provided guidance on structuring the fields in JSON format.",
+      "student_verification": "I reviewed the generated structure and adjusted it to match the assignment template.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Help me structure a JSON file for documenting LLM usage in an assignment",
+      "why_important": "Helped organize the disclosure information correctly."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for this task.",
+    "understanding_acknowledged": true,
+    "signature": "Mann Vaswani",
+    "date": "2026-03-07"
+  }
+}

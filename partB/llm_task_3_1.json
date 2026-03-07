@@ -1,0 +1,76 @@
+{
+  "task_tag": "Task 3.1",
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "provider": "OpenAI"
+    }
+  ],
+  "code_used_verbatim": false,
+  "student_modification": "I modified the ablation setup and feature scaling values based on my experiment design.",
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Identifying components suitable for ablation",
+      "prompt": "Which components of the CW-SVM method could be removed in an ablation study?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Suggested removing ranked feature constraints and reducing the number of labeled features.",
+      "student_verification": "I verified that these components correspond to the ranked feature mechanism described in Section 3 of the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Designing the ablation experiment",
+      "prompt": "How can I design an ablation experiment for ranked features in an SVM setup?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Suggested comparing the full model with simplified variants where ranking information is removed or reduced.",
+      "student_verification": "I implemented these variations and compared their performance.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Visualizing ablation results",
+      "prompt": "What is a good way to visualize results of an ablation experiment in Python?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Suggested using a simple bar chart to compare performance across conditions.",
+      "student_verification": "I implemented the visualization and confirmed that the plot clearly showed performance differences.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Which components of the CW-SVM method could be removed in an ablation study?",
+      "why_important": "This helped identify which parts of the algorithm could be meaningfully tested."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How can I design an ablation experiment for ranked features in an SVM setup?",
+      "why_important": "Helped structure the ablation experiments used in the notebook."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "What is a good way to visualize results of an ablation experiment in Python?",
+      "why_important": "Helped present the experiment results clearly in the report."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for this task.",
+    "understanding_acknowledged": true,
+    "signature": "Mann Vaswani",
+    "date": "2026-03-07"
+  }
+}

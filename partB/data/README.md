@@ -28,6 +28,7 @@ X, y = make_classification(
     n_classes=2,
     random_state=42
 )
+```
 
 A fixed random seed (`random_state=42`) is used to ensure that the dataset remains identical across runs and is fully reproducible.
 

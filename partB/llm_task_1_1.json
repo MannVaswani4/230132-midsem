@@ -1,0 +1,117 @@
+{
+  "task_tag": "Task 1.1",
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "provider": "OpenAI"
+    },
+    {
+      "tool_name": "Gemini",
+      "model": "3 Flash",
+      "provider": "Google"
+    }
+  ],
+  "code_used_verbatim": false,
+  "student_modification": "N/A - this task involved writing an explanation of the method rather than code.",
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Initial understanding of the research paper",
+      "prompt": "I have attached the research paper, help me understand the whole paper",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Provided an overview of the CW-SVM method and its main components before I read the details of the paper.",
+      "student_verification": "After reading the explanation I went back to the paper and checked Sections 2 and 3 to confirm the steps of the method.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Clarifying the ranked feature constraint",
+      "prompt": "In the CW-SVM paper what does the constraint w_alpha − w_beta ≥ rho actually mean in simple terms?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped interpret the pairwise weight constraint and how it reflects expert feature rankings.",
+      "student_verification": "I verified this explanation by looking at Equation 5 and the surrounding explanation in Section 3.1.2.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Understanding the role of box constraints",
+      "prompt": "Why does the CW-SVM paper add box constraints on feature weights?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Explained that the box constraints prevent the optimization from pushing weights to extreme values.",
+      "student_verification": "I confirmed this by checking Equation 3 and the discussion in the experimental setup section.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-07",
+      "tool_name": "Gemini",
+      "model": "3 Flash",
+      "purpose": "Simplifying the explanation before writing the answer",
+      "prompt": "Explain the constrained weight space SVM method in simple terms",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Helped me translate the technical description into simpler language that I could use while writing the step-by-step explanation.",
+      "student_verification": "I rewrote the explanation in my own words and ensured that each step corresponded to the method described in the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-4",
+      "purpose": "Structuring the final explanation",
+      "prompt": "How should I structure a step-by-step explanation of a machine learning paper for an assignment?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Suggested organizing the explanation into steps from input to final output.",
+      "student_verification": "I used this structure but wrote the final explanation after reviewing the paper again.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "I have attached the research paper, help me understand the whole paper",
+      "why_important": "This prompt helped me get an overview of the CW-SVM method before reading the paper carefully."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "In the CW-SVM paper what does the constraint w_alpha − w_beta ≥ rho actually mean in simple terms?",
+      "why_important": "Helped me understand how ranked feature constraints influence the SVM weight vector."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Why does the CW-SVM paper add box constraints on feature weights?",
+      "why_important": "Clarified an important design choice in the algorithm."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Explain the constrained weight space SVM method in simple terms",
+      "why_important": "Helped translate the paper's technical explanation into simpler language."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "How should I structure a step-by-step explanation of a machine learning paper for an assignment?",
+      "why_important": "Helped organize the final explanation required in Task 1.1."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for this task.",
+    "understanding_acknowledged": true,
+    "signature": "Mann Vaswani",
+    "date": "2026-03-07"
+  }
+}
